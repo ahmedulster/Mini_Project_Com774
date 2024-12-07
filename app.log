@@ -1,0 +1,19 @@
+2024-12-06 15:55:02,022 - __main__ - INFO - Models loaded successfully
+2024-12-06 15:55:07,032 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.84.189:5000
+2024-12-06 15:55:07,032 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 15:55:34,122 - __main__ - ERROR - Prediction error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-12-06 15:55:34,123 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 15:55:34] "[35m[1mPOST /predict?Content-Type=application/json HTTP/1.1[0m" 500 -
+2024-12-06 16:04:16,191 - __main__ - INFO - Models loaded successfully
+2024-12-06 16:04:21,200 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.84.189:5000
+2024-12-06 16:04:21,200 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 16:05:05,007 - __main__ - INFO - Successful prediction: WALKING
+2024-12-06 16:05:05,008 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 16:05:05] "POST /predict HTTP/1.1" 200 -
+2024-12-06 16:05:17,347 - __main__ - INFO - Successful prediction: WALKING
+2024-12-06 16:05:17,348 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 16:05:17] "POST /predict HTTP/1.1" 200 -
+2024-12-06 16:06:31,585 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 16:06:31] "GET /health HTTP/1.1" 200 -

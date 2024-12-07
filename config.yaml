@@ -1,0 +1,8 @@
+paths:
+  data:
+    test: "/Users/ayesha/Desktop/Project/data/test_dataset.csv"
+  models:
+    random_forest: "/Users/ayesha/Desktop/Project/models/random_forest.pkl"
+    scaler: "/Users/ayesha/Desktop/Project/models/scaler.pkl"
+    label_encoder: "/Users/ayesha/Desktop/Project/models/label_encoder.pkl"
+    columns: "/Users/ayesha/Desktop/Project/models/training_columns.pkl"

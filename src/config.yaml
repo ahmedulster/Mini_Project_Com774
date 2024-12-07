@@ -1,0 +1,18 @@
+# config.yaml
+```yaml
+paths:
+  data:
+    train: /Users/ayesha/Desktop/Project/data/train_dataset.csv
+    test: /Users/ayesha/Desktop/Project/data/test_dataset.csv
+  models:
+    dir: /Users/ayesha/Desktop/Project/models
+    random_forest: /Users/ayesha/Desktop/Project/models/random_forest.pkl
+    scaler: /Users/ayesha/Desktop/Project/models/scaler.pkl
+    label_encoder: /Users/ayesha/Desktop/Project/models/label_encoder.pkl
+    columns: /Users/ayesha/Desktop/Project/models/training_columns.pkl
+
+model_params:
+  random_forest:
+    n_estimators: 100
+    random_state: 42
+```
