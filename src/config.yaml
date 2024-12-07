@@ -14,5 +14,5 @@ paths:
 model_params:
   random_forest:
     n_estimators: 100
-    random_state: 42
+
 ```
